@@ -16,7 +16,7 @@ public class myPets
     //3 toString
     public String toString()
     {
-        String output = "Name " + name +
+        String output = "Name: " + name +
                 "\nFriendly: " + isFriendly +
                 "\nHours of Sleep: " + amtSleep +
                 "\nFood Type: " + foodType;
