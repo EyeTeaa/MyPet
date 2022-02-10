@@ -22,4 +22,39 @@ public class myPets
                 "\nFood Type: " + foodType;
         return output;
     }
+
+    //4 Getters
+    public boolean isFriendly() {
+        return isFriendly;
+    }
+
+    public double getAmtSleep() {
+        return amtSleep;
+    }
+
+    public String getFoodType() {
+        return foodType;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    //5 Setters
+
+    public void setAmtSleep(double amtSleep) {
+        this.amtSleep = amtSleep;
+    }
+
+    public void setFoodType(String foodType) {
+        this.foodType = foodType;
+    }
+
+    public void setFriendly(boolean friendly) {
+        isFriendly = friendly;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

@@ -20,4 +20,17 @@ public class Frog extends myPets
         return output;
     }
 
+    //4 Getters
+    public boolean getIsPoisonous()
+    {
+        return isPoisonous;
+    }
+
+    //5 Setters
+    public void setIsPoisonous(boolean isPoisonous)
+    {
+        this.isPoisonous = isPoisonous;
+    }
+
+
 }
